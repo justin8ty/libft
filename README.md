@@ -14,16 +14,16 @@ Integers use `int` or `size_t`, depending on usage.
 
 `size_t` is unsigned int.
 
-| Data Type | Bytes | Description                                                                |
-| --------- | ----- | -------------------------------------------------------------------------- |
-| char      | 1     | A single character                                                         |
-| bool      | 1     | A boolean: true or false                                                   |
-| short     | 2     | 1/2 size of integer: used to optimize memory                               |
-| int       | 4     | An integer: used for loop counter                                          |
-| long      | 8     | 2x size of integer, used when int overflow                                 |
-| float     | 4     | A decimal (floating point) number: used for computer graphics              |
-| double    | 8     | More precise version of float                                              |
-| unsigned  | -     | Keyword for char, short, int, long: denotes it cannot have negative values |
+| Data Type | Bytes | Description                                                   |
+| --------- | ----- | ------------------------------------------------------------- |
+| char      | 1     | A single character                                            |
+| bool      | 1     | A boolean: true or false                                      |
+| short     | 2     | 1/2 size of integer: used to optimize memory                  |
+| int       | 4     | An integer: used for loop counter                             |
+| long      | 8     | 2x size of integer: used when int overflow                    |
+| float     | 4     | A decimal (floating point) number: used for computer graphics |
+| double    | 8     | More precise version of float                                 |
+| unsigned  | -     | Denotes a data type cannot have negative values               |
 
 ## File Descriptor
 
