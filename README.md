@@ -2,6 +2,8 @@
 
 This is a rewrite of various Libc functions from `<ctype.h>, <stdlib.h>, <string.h>`, as well as other general purpose functions.
 
+![alt text](image.png)
+
 String functions use `char`.
 
 Binary functions use `unsigned char`.
